@@ -98,7 +98,7 @@ footer.band .content {
     align-items: center;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     header {
         min-height: 240px;
     }
@@ -124,4 +124,4 @@ footer.band .content {
         justify-content: space-between;
     }
 
-  }
+}
