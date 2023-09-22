@@ -9,12 +9,13 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
+    font-size: 16px;
 }
 
 header {
     background-image: radial-gradient(circle,rgba(164, 65, 184, 0.171) 42%,rgba(9, 1, 23, 0.329) 100%), url(../images/headerbright.webp);
     background-size: cover;
-    max-height: 20rem;
+    max-height: 20em;
     flex-direction: column;
     justify-content: center;
 }
@@ -32,7 +33,7 @@ header a {
 .header-navigation {
     background-color: #ffffffb7;
     box-shadow: 0px 2px 6px #13023b36, 0px 2px 12px #13023b23, 0px 2px 24px #13023b2c;
-    max-height: 5rem;
+    max-height: 5em;
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -44,7 +45,7 @@ header a {
 }
 
 .header-navigation .content a {
-    margin-left: 4rem;
+    margin-left: 4em;
 }
 
 .band {
@@ -57,18 +58,18 @@ header a {
     display: flex;
     flex: 1; 
     flex-direction: column;
-    padding: 1rem;
+    padding: 1em;
     max-width: 960px;
 }
 
 p, a {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6rem;
+    line-height: 1.6em;
 }
 
 a, a:visited {
-    color: #6422b1;
+    color: #5a14aa;
     text-decoration: none;
 }
 
@@ -81,12 +82,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 2.8em;
 }
 
 footer {
-    background-color: #754ed15e;
-    max-height: 8rem;
+    background-color: #9479d45e;
+    max-height: 8em;
 }
 
 footer.band .content {
