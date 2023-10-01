@@ -14,7 +14,6 @@ html, body {
     flex: 1;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
     position: relative;
 }
 
@@ -89,13 +88,22 @@ h1 {
 
 footer {
     background-color: #b3b2ec5e;
-    max-height: 6em;
+    max-height: 8em;
+}
+
+footer p, footer a {
+    line-height: 1.2em;
+    font-size: 0.9em;
 }
 
 footer.band .content {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.right {
+    text-align: right;
 }
 
 @media (max-width: 520px) {
@@ -116,12 +124,17 @@ footer.band .content {
     }
 
     footer {
-        max-height: 6em;
-        min-height: 6em;
+        max-height: initial;
+        min-height: 12em;
     }
 
     footer.band .content {
         justify-content: space-between;
+        flex-direction: column;
+        align-items: start;
     }
 
+    footer.band .content div {
+        width: 100%;
+    }
 }
