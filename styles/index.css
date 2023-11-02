@@ -18,9 +18,9 @@ html, body {
 }
 
 header {
-    background-image: radial-gradient(circle,rgba(164, 65, 184, 0.171) 42%,rgba(9, 1, 23, 0.329) 100%), url(../images/headerbright.webp);
+    background-image: radial-gradient(circle,rgba(65, 184, 134, 0.171) 42%,rgba(1, 23, 21, 0.329) 100%), url(../images/newheader.jpg);
     background-size: cover;
-    max-height: 20em;
+    max-height: 22em;
     flex-direction: column;
     justify-content: center;
 }
@@ -32,7 +32,7 @@ header h1 {
 }
 
 .header-navigation {
-    background-color: #ffffffb7;
+    background-color: #eaf7f1b7;
     box-shadow: 0px 2px 6px #13023b36, 0px 2px 12px #13023b23, 0px 2px 24px #13023b2c;
     max-height: 4em;
     display: flex;
@@ -70,7 +70,7 @@ p, a {
 }
 
 a, a:visited {
-    color: #5a14aa;
+    color: #024ca0;
     text-decoration: none;
 }
 
@@ -87,13 +87,19 @@ h1 {
 }
 
 footer {
-    background-color: #b3b2ec5e;
+    background-color: #0a3d35;
     max-height: 8em;
+    box-shadow: inset 0px 2px 6px #02302236, inset 0px 2px 12px #01262771, inset 0px 2px 24px #010d1d81;
 }
 
-footer p, footer a {
+footer p, footer a, footer a:visited {
     line-height: 1.2em;
-    font-size: 0.9em;
+    font-size: 0.94em;
+    color: #baf3cd;
+}
+
+footer a {
+    text-decoration: underline;
 }
 
 footer.band .content {
